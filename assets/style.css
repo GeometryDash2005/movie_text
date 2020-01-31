@@ -1,0 +1,168 @@
+body,h1,h2,h3,h4,p,a{
+	margin: 0;
+	font-family: 'Helvetica';
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+
+.container{
+	width: 1000px;
+	margin: 0 auto;
+}
+
+.header{
+	display: flex;
+	background-color: black;
+}
+
+.header__picture{
+	width: 50px;
+	height: 50px;
+}
+
+.header__container{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.header__link:first-child{
+	color: white;
+	margin-right: 20px;
+	font-size: 20px;
+}
+
+.header__link:nth-child(2){
+	color: white;
+	margin-right: 20px;
+	font-size: 20px;
+}
+
+.header__link:nth-child(3){
+	color: white;
+	margin-right: 20px;
+	font-size: 20px;
+}
+
+.header__link:last-child{
+	color: white;
+	font-size: 20px;
+}
+
+.main{
+	display: flex;
+	background-image: url(./img/TEXT_70x100-e1565175188212.jpg);
+	height: 600px;
+	width: 100%;
+	margin: 0 auto;
+	background-size: 100%;
+	color: white;
+}
+
+.main__desc{
+	margin-top: 50px;
+	height: 80%;
+	width: 30%;
+	display: flex;
+	align-items: flex-start;
+	justify-content: flex-start;
+	flex-direction: column;
+	margin-right: 250px;
+}
+
+.main__title{
+	font-size: 70px;
+}
+
+.main__video{
+	display: flex;
+}
+
+.container.-flex{
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+}
+
+
+.main__info{
+	margin-top: auto;
+}
+
+.session__picture{
+	width: 30px;
+	height: 30px;
+}
+
+.time{
+	display: flex;
+	margin-right: 150px;
+}
+
+.place{
+	display: flex;
+	margin-right: 30px;
+}
+
+.price{
+	display: flex;
+}
+
+.session{
+	margin-top: 30px;
+	font-size: 20px;
+	display: flex;
+	margin-bottom: 30px;
+	width: 600px;
+}
+
+.info__desc{
+	margin-bottom: 30px;
+}
+
+.manifest{
+	border: 2px solid black;
+}
+
+.manifest__body{
+	padding: 10px;
+	margin-bottom: 10px;
+}
+
+.info__opinion{
+	margin-bottom: 30px;
+}
+
+.opinion__body{
+	margin-top: 30px;
+	border-left: 4px solid red;
+	padding-left: 20px;
+}
+
+.info{
+	width: 600px;
+}
+
+.spicker{
+		width: 200px;
+}
+
+.desc{
+	display: flex;
+}
+
+.desc__left{
+	justify-content: flex-start;
+}
+
+.desc__right{
+	justify-content: flex-end;
+}
+
+.spicker__picture{
+	width: 50px;
+}
