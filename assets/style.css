@@ -125,7 +125,7 @@ a {
 }
 
 .manifest{
-	border: 2px solid black;
+	border: 4px solid black;
 }
 
 .manifest__body{
@@ -139,7 +139,7 @@ a {
 
 .opinion__body{
 	margin-top: 30px;
-	border-left: 4px solid red;
+	border-left: 6px solid red;
 	padding-left: 20px;
 }
 
@@ -148,21 +148,27 @@ a {
 }
 
 .spicker{
-		width: 200px;
+		width: 250px;
 }
 
 .desc{
 	display: flex;
 }
 
-.desc__left{
-	justify-content: flex-start;
+.spicker{
+	align-items: flex-start;
 }
 
-.desc__right{
-	justify-content: flex-end;
+.spicker__border{
+	border: solid 4px black;
+	padding:15px;
 }
 
 .spicker__picture{
-	width: 50px;
+	width: 80px;
+}
+
+.container.-flex.-desc{
+	display: flex;
+	justify-content: space-between;
 }
